@@ -7,3 +7,10 @@ sudo mount /dev/cdrom /mnt/cdrom
 cd /mnt/cdrom
 sudo sh ./VBoxLinuxAdditions.run --nox11
 sudo shutdown -r now
+
+wget http://download.virtualbox.org/virtualbox/6.0.18/VBoxGuestAdditions_6.0.18.iso
+sudo mkdir /media/iso
+sudo mount VBoxGuestAdditions_6.0.18.iso /media/iso
+cd /media/iso
+sudo ./VBoxLinuxAdditions.run
+sudo reboot
