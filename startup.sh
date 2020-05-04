@@ -1,3 +1,5 @@
+# wget -O - https://raw.githubusercontent.com/dbr787/ubuntu/master/startup.sh | bash
+
 sudo apt-get update
 sudo apt-get install -y build-essential
 sudo apt-get install -y dkms
