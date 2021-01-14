@@ -1,7 +1,17 @@
 echo "-----> starting prepare.sh script"
 
 # echo "-----> update and upgrade"
-# sudo apt update -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt clean -y && sudo apt autoclean -y
+# sudo apt update -y
+# sudo apt full-upgrade -y
+# sudo apt autoremove -y
+# sudo apt clean -y
+# sudo apt autoclean -y
+# echo "-----> install vs code"
+# sudo snap install --classic code
+
+# sudo apt update
+# sudo apt install nodejs npm -y
+
 # echo "apt-get install -y ubuntu-desktop"
 # apt-get install -y ubuntu-desktop
 # echo "-----> installing build-essential"
